@@ -9,7 +9,7 @@ const dimmedColors = require("@primer/primitives/dist/json/colors/dark_dimmed.js
 const accL = 55;
 const accC = 54;
 const accH = 252;
-const wppH = 222;
+const wppH = 192;
 
 const tealScale = [
 	"#f2fbfa",
@@ -40,8 +40,8 @@ function getColors(theme) {
 			lightColors.fg.muted = lightColors.scale.gray[5];
 			lightColors.fg.subtle = "oklch(74% 5% 251deg)";
 
-			lightColors.canvas.subtle = `oklch(98% 1% ${wppH}deg)`;
-			lightColors.canvas.inset = `oklch(95% 1.5% ${wppH}deg)`;
+			lightColors.canvas.subtle = `oklch(97% 1% ${wppH}deg)`;
+			lightColors.canvas.inset = `oklch(94% 2% ${wppH}deg)`;
 
 			lightColors.border.default = `oklch(20% 30% ${wppH}deg / 10%)`;
 			lightColors.border.muted = `oklch(20% 30% ${wppH}deg / 5%)`;
@@ -49,9 +49,9 @@ function getColors(theme) {
 			lightColors.primer.border.active = lightColors.accent.fg;
 
 			lightColors.neutral.emphasisPlus = `oklch(28% 3% ${wppH}deg)`;
-			lightColors.neutral.emphasis = `oklch(50% 5% ${wppH}deg)`;
-			lightColors.neutral.muted = `oklch(70% 4% ${wppH}deg / 20%)`;
-			lightColors.neutral.subtle = `oklch(80% 2% ${wppH}deg / 50%)`;
+			lightColors.neutral.emphasis = `oklch(50% 10% ${wppH}deg)`;
+			lightColors.neutral.muted = `oklch(60% 20% ${wppH}deg / 20%)`;
+			lightColors.neutral.subtle = `oklch(70% 5% ${wppH}deg / 40%)`;
 
 			lightColors.scale.pink = tealScale;
 
@@ -94,13 +94,13 @@ function getColors(theme) {
 			dimmedColors.fg.muted = dimmedColors.scale.gray[2];
 			dimmedColors.fg.subtle = dimmedColors.scale.gray[4];
 
-			dimmedColors.canvas.default = `oklch(26% 3% ${wppH}deg)`;
-			dimmedColors.canvas.subtle = `oklch(31% 5% ${wppH}deg)`;
-			dimmedColors.canvas.inset = `oklch(29% 4% ${wppH}deg)`;
+			dimmedColors.canvas.default = `oklch(26% 2% ${wppH}deg)`;
+			dimmedColors.canvas.subtle = `oklch(31% 4% ${wppH}deg)`;
+			dimmedColors.canvas.inset = `oklch(29% 3% ${wppH}deg)`;
 
-			dimmedColors.border.default = `oklch(84% 30% ${wppH}deg / 10%)`;
-			dimmedColors.border.muted = `oklch(84% 30% ${wppH}deg / 5%)`;
-			dimmedColors.border.subtle = `oklch(84% 30% ${wppH}deg / 5%)`;
+			dimmedColors.border.default = `oklch(84% 10% ${wppH}deg / 10%)`;
+			dimmedColors.border.muted = `oklch(84% 10% ${wppH}deg / 5%)`;
+			dimmedColors.border.subtle = `oklch(84% 10% ${wppH}deg / 5%)`;
 			dimmedColors.primer.border.active = dimmedColors.accent.fg;
 
 			// dimmedColors.neutral.emphasisPlus = `oklch(28% 3% ${wppH})`;
